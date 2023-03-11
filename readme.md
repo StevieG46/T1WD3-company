@@ -42,4 +42,23 @@ Footer has social media links, cpontact number and address. Here is the code tha
         </div>
 
     </footer>
-    ```
+```
+## Pages
+
+### Home
+Home page, for now, jsut displays some lorem ipsum text.
+Here is the code that we have used:
+```html
+<main>
+        <section>
+            <div class="jumbotron">
+                <img src="./images/jumbotron.jpg">
+            </div>
+            <div class="details">
+                <p>
+                    Lorem Ipsum text
+                </p>
+            </div>
+        </section>
+    </main>
+```

@@ -22,8 +22,9 @@ header {
     @include background-stuff();
 
     .logo-name {
+        @media screen and (max-width: 600px) {
         margin-bottom: 24px;
-
+    }
         .name {
             font-size: 28px;
             .coder-text {
@@ -49,13 +50,47 @@ header {
     }
 }
 
+@media screen and (min-width: 600px) {
+    header {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+
+        .logo-name {
+            // margin-bottom: 0px; this will be taken care in mobile view
+            .name {
+                margin-bottom: 0px;
+            }
+        }
+
+        .nav-items {
+            width: 50%;
+
+        }
+    
+    }
+
+    
+}
+
+main {
+    section {
+        .jumbotron {
+            img {
+                height: 300px;
+                width: 100%;
+            }
+        }
+    }
+}
+
 footer {
     @include background-stuff();
    
     .social-media {
         display: flex;
         justify-content: space-around;
-        
+
         margin-bottom: 24px;
 
         a {
@@ -68,5 +103,16 @@ footer {
     .info {
         color: rgb(41,40,40);
         margin: 5px 0;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    footer {
+        .social-media {
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
     }
 }
