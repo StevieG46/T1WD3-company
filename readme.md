@@ -62,7 +62,9 @@ Here is the code that we have used:
         </section>
     </main>
 ```
-## Styling
+### Styling
+Services page displaya the list of services that we provide. 
+
 
 ### Components
 These will contain the styling of indiviudal components which are as following at the moment:
