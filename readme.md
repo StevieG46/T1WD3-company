@@ -62,3 +62,15 @@ Here is the code that we have used:
         </section>
     </main>
 ```
+## Styling
+
+### Components
+These will contain the styling of indiviudal components which are as following at the moment:
+- Header
+- Footer
+
+### Defaults
+This will contain the default variables such as colors, breakpoints, etc.
+
+### Pages
+This will contain the styling of each indiviudal html pages.
