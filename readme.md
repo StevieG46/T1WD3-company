@@ -62,6 +62,12 @@ Here is the code that we have used:
         </section>
     </main>
 ```
+### Services
+
+
+### Contact Page 
+Contact Page can be used to contact the company
+
 ### Styling
 Services page displaya the list of services that we provide. 
 
