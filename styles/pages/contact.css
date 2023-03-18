@@ -1,3 +1,81 @@
+header {
+  background-color: #ffb6b6;
+  padding: 16px;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  header .logo-name {
+    margin-bottom: 24px;
+  }
+}
+header .logo-name .name {
+  font-size: 28px;
+}
+header .logo-name .name .coder-text {
+  color: #45A7C5;
+}
+header .logo-name .name .academy-text {
+  color: #1C3C5C;
+}
+header .nav-items {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+}
+header .nav-items a {
+  text-decoration: none;
+  color: #299bbe;
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  header .logo-name .name {
+    margin-bottom: 0px;
+  }
+  header .nav-items {
+    width: 50%;
+  }
+}
+footer {
+  background-color: #ffb6b6;
+  padding: 16px;
+  text-align: center;
+}
+footer .social-media {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 24px;
+}
+footer .social-media a i {
+  color: #1C3C5C;
+  font-size: 24px;
+}
+footer .info {
+  color: #1C3C5C;
+  margin: 5px 0;
+}
+
+@media screen and (min-width: 600px) {
+  footer .social-media {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+body {
+  margin: 0px;
+  background-color: #a5a5a5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -22,6 +100,7 @@ main form .form-elements .form-input {
   border-radius: 4px;
   outline: none;
   font-size: 1.2rem;
+  font-family: "Times New Roman", Times, serif;
 }
 main form .form-elements .form-input:not(.form-textarea) {
   height: 32px;

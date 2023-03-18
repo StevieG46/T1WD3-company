@@ -68,6 +68,9 @@ Services Pages list services we provide
 ### Contact Page 
 Contact Page can be used to contact the company
 
+### About Page
+About page is about us.
+
 ### Styling
 Services page displaya the list of services that we provide. 
 
