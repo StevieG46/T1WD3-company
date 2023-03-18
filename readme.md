@@ -63,7 +63,7 @@ Here is the code that we have used:
     </main>
 ```
 ### Services
-
+Services Pages list services we provide
 
 ### Contact Page 
 Contact Page can be used to contact the company
